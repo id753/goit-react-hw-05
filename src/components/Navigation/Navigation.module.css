@@ -1,0 +1,32 @@
+a {
+  color: rgb(17, 0, 255);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a.active {
+  color: rgb(255, 0, 0);
+}
+.header {
+  position: sticky; /* Делает элемент "липким", он остается видимым при прокрутке страницы */
+  z-index: 1; /* Задает порядок отображения, чтобы элемент был поверх других */
+  top: 0; /* Закрепляет элемент у верхнего края окна */
+  right: 0; /* Выравнивает элемент относительно правого края */
+  height: 20px; /* Высота адаптируется под содержимое */
+  padding: 5px; /* Отступы внутри элемента */
+  background-color: rgb(255, 255, 255); /* Цвет фона элемента */
+  border-radius: 8px; /* Закругляет углы элемента */
+  display: flex; /* Устанавливает flex-контейнер для управления дочерними элементами */
+  justify-content: center; /* Выравнивает дочерние элементы по центру по горизонтали */
+  align-items: center;
+  background-color: #ffffff;
+}
+ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+li {
+  display: inline;
+}
