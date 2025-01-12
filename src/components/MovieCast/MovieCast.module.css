@@ -1,0 +1,15 @@
+.cast_list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+
+.movieItem img {
+  width: 100px;
+  height: auto;
+}
+
+.castActorName {
+  font-size: 20px;
+  align-items: center;
+  text-decoration: none;
+}
