@@ -10,7 +10,7 @@ import {
 import { fetchInfoMovie } from "../../services/api";
 import s from "./MovieDetailsPage.module.css";
 
-const defaultImg = "https://i.work.ua/career_guide/59_b.png";
+const defaultImg = "../../../public/img/poster.webp";
 
 const MovieDetailsPage = () => {
   const { movieId } = useParams();
@@ -45,12 +45,14 @@ const MovieDetailsPage = () => {
       <div className={s.movieContent}>
         {movie.poster_path ? (
           <img
+            className={s.movieContentImg}
             src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`}
             alt={movie.title}
           />
         ) : (
           <img
-            src={defaultImg} // Замените на путь к вашей заглушке
+            className={s.movieContentImg}
+            src={defaultImg} // Замените на путь к заглушке
             alt="No image available"
           />
         )}
@@ -64,8 +66,18 @@ const MovieDetailsPage = () => {
       </div>
 
       <nav>
-        <NavLink to="cast">MovieCast</NavLink>
-        <NavLink to="reviews">MovieReviews</NavLink>
+        <NavLink
+          to="cast"
+          className={({ isActive }) => (isActive ? s.active : "")}
+        >
+          MovieCast
+        </NavLink>
+        <NavLink
+          to="reviews"
+          className={({ isActive }) => (isActive ? s.active : "")}
+        >
+          MovieReviews
+        </NavLink>
       </nav>
 
       <div className={s.outletContainer}>

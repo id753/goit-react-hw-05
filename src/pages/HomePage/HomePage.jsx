@@ -13,6 +13,16 @@ const HomePage = () => {
   }, []);
   return (
     <div>
+      <p
+        style={{
+          fontSize: "24px",
+          textAlign: "center",
+          padding: "0",
+        }}
+      >
+        TRENDING MOVIES
+      </p>
+
       <MovieList movies={movies} />
     </div>
   );

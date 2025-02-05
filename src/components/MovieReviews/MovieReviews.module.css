@@ -1,0 +1,10 @@
+.moviesRev_list {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.moviesRev_item {
+  text-align: left;
+  font-size: 20px;
+}

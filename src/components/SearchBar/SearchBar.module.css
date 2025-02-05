@@ -1,34 +1,39 @@
+.form {
+  overflow: hidden; /* Скрывает содержимое, выходящее за границы элемента */
+  width: 100%; /* Элемент занимает всю доступную ширину */
+  max-width: 500px;
+  margin: 0 auto;
+}
 
-  
-  .form {
-    overflow: hidden; /* Скрывает содержимое, выходящее за границы элемента */
-    width: 100%; /* Элемент занимает всю доступную ширину */
-    max-width: 500px; 
-    margin: 0 auto;
-  }
-  
-  .input_form {
-    display: flex; 
-    gap: 10px; 
-    padding: 5px; 
-    background-color: #f1f3f4; 
-    border-radius: 8px; 
-  }
-  
-  .input {
-    border: none; /* Убирает рамку вокруг элемента */
-    outline: none; /* Убирает обводку при фокусе */
-    font-size: 18px; 
-    flex-grow: 1; /* Поле ввода занимает все доступное пространство */
-  }
-  
-  .button {
-    cursor: pointer;
-    transition: color 0.3s; 
-    color: rgb(255, 255, 255); 
-  }
-  
-  .button:hover {
-    transform: scale(1.1); 
-    color: blueviolet;
-  }
+.input_form {
+  display: flex;
+  gap: 10px;
+  padding: 5px;
+  background-color: #f1f3f4;
+  border-radius: 0 0 8px 8px;
+}
+
+.input {
+  border: none; /* Убирает рамку вокруг элемента */
+  outline: none; /* Убирает обводку при фокусе */
+  font-size: 18px;
+  flex-grow: 1; /* Поле ввода занимает все доступное пространство */
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  font-size: 20px;
+  width: 200px;
+  text-decoration: none;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #179e44;
+  color: white;
+}
