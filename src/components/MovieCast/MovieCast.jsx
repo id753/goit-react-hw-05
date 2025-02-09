@@ -3,8 +3,8 @@ import { useParams } from "react-router-dom";
 import { fetchCastMovie } from "../../services/api";
 import s from "./MovieCast.module.css";
 
-const defaultMaleImg = "../../../public/img/actor.webp";
-const defaultFemaleImg = "../../../public/img/actress.webp";
+const defaultMaleImg = "/actor.webp";
+const defaultFemaleImg = "/actress.webp";
 
 const MovieCast = () => {
   const { movieId } = useParams();

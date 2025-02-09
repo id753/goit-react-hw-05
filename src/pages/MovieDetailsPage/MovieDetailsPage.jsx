@@ -10,7 +10,7 @@ import {
 import { fetchInfoMovie } from "../../services/api";
 import s from "./MovieDetailsPage.module.css";
 
-const defaultImg = "../../../public/img/poster.webp";
+const defaultImg = "/poster.webp";
 
 const MovieDetailsPage = () => {
   const { movieId } = useParams();
