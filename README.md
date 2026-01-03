@@ -18,7 +18,7 @@
     
 Додано асинхронне завантаження JS-коду для маршрутів застосунку, використовуючи React.lazy та Suspense.
 
---
+---
 
 Розгорнуто на Vercel.</br>
 Проект створений за допомогою Vite.</br>
@@ -28,7 +28,7 @@
 Використано Prettier. </br>
 Стилізація виконана за допомогою CSS-модулів.</br>
 
-
+---
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
