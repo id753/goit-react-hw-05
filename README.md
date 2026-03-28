@@ -3,12 +3,12 @@
 # Застосунок із маршрутизацією для пошуку фільмів за назвою. 
 
 Використано сервіс TMDB https://developer.themoviedb.org/docs/getting-started.
-<!--
+
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/64448477-ddf9-4dc4-9af9-414d64de1273" " alt="NoteHub App Screenshot" width="450" />
+  <img src="https://github.com/user-attachments/assets/d0b4ad1e-be76-4633-b43b-de317e2b78b5" alt="TRENDING MOVIES App Screenshot" width="450" />
   <br>
-  <sub>NoteHub App Screenshot</sub>
-</p> -->
+  <sub>TRENDING MOVIES App Screenshot</sub>
+</p> 
 
 При натисканні на посилання Go back (після перегляду акторів/ рев'ю) користувач має повернутися на сторінку, з якої він зайшов на сторінку з деталями фільма. Якщо сторінку було оновлено і об'єкт місцезнаходження не зберігся, то повернення користувача на "/movies”.
 
